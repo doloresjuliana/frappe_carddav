@@ -4,7 +4,7 @@
 
 Of course it works with **ERPNEXT contacts** or any other app built with Frappe and that makes use of its contacts doctype.
 
-App in a **very preliminary state**, it is in the first phase of development 
+App in a **very preliminary state**, it is in the first phase of development. From the functional scope detailed below, **points 1 and 2 are currently developed**.
 ## Its installation in its current state is not recommended 
 
 ## Functional scope:
@@ -22,14 +22,24 @@ App in a **very preliminary state**, it is in the first phase of development
 6. **At the time of registration and modification of contacts in Frappe**, a push will be executed in the systems and contact books configured with this operation
 7. **A scheduled task with the periodicity estimated** by the Frappe administrator will execute the total synchronization of the schedules.
 
-
-
-
 It is not part of the scope of this app to turn Frappe into a CardDAV server, it will simply act as a client of other systems that are.
 
 It is not considered in scope for Frappe to sync with all applications that act as CardDAV servers. It is also not considered in scope to assume older versions of vCard.
  
 Synchronization with Nextcloud and for vCard version 4.0 will be tested.
+
+## Design and usability:
+
+When you install this app, new buttons and menu options will appear on the contact screens. The app does not have its own workspace for its module, it is limited to extending the functionality of Frappe contacts and without them it makes no sense.
+
+Once the development of the entire functional scope is finished, a detailed explanation of each enabled option or button will be included here.
+These are some of those included in the current state of development:
+
+![image](https://user-images.githubusercontent.com/29335418/167308093-42f6353d-3f77-40a7-bdd7-598ef9e75a8e.png)
+
+
+![image](https://user-images.githubusercontent.com/29335418/167308493-bc0cd1bd-be18-4f46-9920-f215cf99ff0d.png)
+
 
 #### License
 
