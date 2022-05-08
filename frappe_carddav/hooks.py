@@ -32,6 +32,8 @@ app_license = "GPL-3.0 License"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Contact" : "public/js/contact.js"}
+doctype_list_js = {"Contact" : "public/js/contact_list.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
