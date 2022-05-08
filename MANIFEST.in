@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_carddav *.css
+recursive-include frappe_carddav *.csv
+recursive-include frappe_carddav *.html
+recursive-include frappe_carddav *.ico
+recursive-include frappe_carddav *.js
+recursive-include frappe_carddav *.json
+recursive-include frappe_carddav *.md
+recursive-include frappe_carddav *.png
+recursive-include frappe_carddav *.py
+recursive-include frappe_carddav *.svg
+recursive-include frappe_carddav *.txt
+recursive-exclude frappe_carddav *.pyc
